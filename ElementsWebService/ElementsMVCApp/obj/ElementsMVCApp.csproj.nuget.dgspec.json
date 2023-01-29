@@ -1,32 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsMVCApp\\ElementsMVCApp.csproj": {}
+    "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsMVCApp\\ElementsMVCApp.csproj": {}
   },
   "projects": {
-    "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj": {
+    "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj",
+        "projectUniqueName": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj",
         "projectName": "ElementsClassLibrary",
-        "projectPath": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj",
-        "packagesPath": "C:\\Users\\Ax\\.nuget\\packages\\",
-        "outputPath": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsClassLibrary\\obj\\",
+        "projectPath": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\vic\\.nuget\\packages\\",
+        "outputPath": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ax\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +43,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -46,11 +52,11 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -59,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,39 +75,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsMVCApp\\ElementsMVCApp.csproj": {
+    "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsMVCApp\\ElementsMVCApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsMVCApp\\ElementsMVCApp.csproj",
+        "projectUniqueName": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsMVCApp\\ElementsMVCApp.csproj",
         "projectName": "ElementsMVCApp",
-        "projectPath": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsMVCApp\\ElementsMVCApp.csproj",
-        "packagesPath": "C:\\Users\\Ax\\.nuget\\packages\\",
-        "outputPath": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsMVCApp\\obj\\",
+        "projectPath": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsMVCApp\\ElementsMVCApp.csproj",
+        "packagesPath": "C:\\Users\\vic\\.nuget\\packages\\",
+        "outputPath": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsMVCApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ax\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj": {
-                "projectPath": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj"
+              "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj": {
+                "projectPath": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj"
               },
-              "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsWebAPI\\ElementsWebAPI.csproj": {
-                "projectPath": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsWebAPI\\ElementsWebAPI.csproj"
+              "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsWebAPI\\ElementsWebAPI.csproj": {
+                "projectPath": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsWebAPI\\ElementsWebAPI.csproj"
               }
             }
           }
@@ -112,28 +125,28 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "CsvHelper": {
               "target": "Package",
-              "version": "[27.2.1, )"
+              "version": "[30.0.1, )"
             },
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
-              "version": "[5.2.8, )"
+              "version": "[5.2.9, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[7.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[6.5.0, )"
             },
             "Tavis.UriTemplates": {
               "target": "Package",
-              "version": "[1.1.1, )"
+              "version": "[2.0.0, )"
             }
           },
           "imports": [
@@ -142,7 +155,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -154,36 +168,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsWebAPI\\ElementsWebAPI.csproj": {
+    "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsWebAPI\\ElementsWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsWebAPI\\ElementsWebAPI.csproj",
+        "projectUniqueName": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsWebAPI\\ElementsWebAPI.csproj",
         "projectName": "ElementsWebAPI",
-        "projectPath": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsWebAPI\\ElementsWebAPI.csproj",
-        "packagesPath": "C:\\Users\\Ax\\.nuget\\packages\\",
-        "outputPath": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsWebAPI\\obj\\",
+        "projectPath": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsWebAPI\\ElementsWebAPI.csproj",
+        "packagesPath": "C:\\Users\\vic\\.nuget\\packages\\",
+        "outputPath": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsWebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ax\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj": {
-                "projectPath": "D:\\HSE\\Курсач\\Developing\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj"
+              "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj": {
+                "projectPath": "D:\\WWW\\IMET\\Elements\\ElementsWebService\\ElementsClassLibrary\\ElementsClassLibrary.csproj"
               }
             }
           }
@@ -195,8 +215,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -204,23 +224,23 @@
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[5.1.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[6.5.0, )"
             },
             "Tavis.UriTemplates": {
               "target": "Package",
-              "version": "[1.1.1, )"
+              "version": "[2.0.0, )"
             }
           },
           "imports": [
@@ -229,7 +249,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -241,7 +262,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
